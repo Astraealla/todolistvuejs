@@ -6,9 +6,13 @@
 <script>
 
 export default {
-  name: '',
-  props: {
-  }
+  name: 'List',
+  props: ['add_list'],
+//   methods: 
+//     {
+//         addList: function()
+        
+//     }
 }
 </script>
 

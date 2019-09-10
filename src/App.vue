@@ -1,7 +1,8 @@
 <template>
   <div>
     <h1>To Do List</h1>
-
+    <input type="text" class="field">
+    <button class="button">O</button>
     <h2>Nom de la Liste</h2>
 
       <div class="container">
@@ -20,9 +21,9 @@ import List from './components/List.vue'
 import Tasks from './components/Tasks.vue'
 
 export default {
-  name: '',
+  name: 'app',
   components: {
-   
+    List
   }
 }
 </script>
@@ -47,5 +48,9 @@ h2{
   border: 1px dotted blue;
   color: red;
   width: 300px;
+}
+
+.field{
+  margin-left: 600px;
 }
 </style>
